@@ -20,9 +20,9 @@ class BottomNavBar extends StatelessWidget {
       unselectedItemColor: Colors.grey[500],
       dotIndicatorColor: Colors.transparent,
       enablePaddingAnimation: false,
-      itemPadding: EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+      itemPadding: EdgeInsets.symmetric(horizontal: 12, vertical: 8),
       paddingR: EdgeInsets.all(0),
-      marginR: EdgeInsets.symmetric(horizontal: 90, vertical: 20),
+      marginR: EdgeInsets.symmetric(horizontal: 80, vertical: 20),
     );
   }
 }

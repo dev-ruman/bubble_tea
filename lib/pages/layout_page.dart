@@ -24,7 +24,7 @@ class _LayoutPageState extends State<LayoutPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.grey[300],
+      backgroundColor: Colors.brown[200],
       extendBody: true,
       body: _pages[selectedIndex],
       bottomNavigationBar: BottomNavBar(
